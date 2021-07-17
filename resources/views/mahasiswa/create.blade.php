@@ -15,7 +15,7 @@
                             <div class="form-row">
                                
                                 <label for="">NPM</label>
-                                    <input type="text" name="npm" class="form-control" placeholder="Masukkan NPM">
+                                    <input type="number" name="npm" class="form-control" placeholder="Masukkan NPM">
                                     <br>
                                
                                 

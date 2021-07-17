@@ -30,7 +30,7 @@ class MahasiswaController extends Controller
         
         return view('mahasiswa.edit', compact('mahasiswa'));
     }
-    public function update(request $REQUEST,$id)
+    public function update(Request $REQUEST,$id)
     {
         $mahasiswa= Mahasiswa::find($id);
         $mahasiswa->update($REQUEST->all());

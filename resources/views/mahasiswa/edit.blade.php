@@ -8,7 +8,7 @@
                 <div class="card-header">Edit Mahasiswa</div>
 
                  <div class="card-body">
-                    <form action="{{ route('mahasiswa.update', $mahasiswa->id)}}" method="POST">
+                    <form action="{{ route('mahasiswa-update', $mahasiswa->id)}}" method="POST">
                     @csrf
                 
                         <div class="form-grup">
@@ -52,7 +52,7 @@
                                     <div class="form-row">
                                         <div class="col float-right">
                                         <br> 
-                                            <button type="submit"class="btn btn-md  btn-primary">simpan</button>
+                                            <button type="submit"class="btn btn-md  btn-primary">Simpan</button>
                                             <a href="{{route('mahasiswa')}}" class="btn btn-md btn-danger ">Batal</a>
                                         </div>
                                     </div>
